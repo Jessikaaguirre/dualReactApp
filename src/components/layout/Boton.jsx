@@ -1,0 +1,17 @@
+import React from 'react'
+
+const Boton = ({ children, funcion }) => {
+
+    return (
+        <button
+            className='px-2 
+            py-1
+            bg-emerald-800 
+            border 
+            text-white 
+            text.xl'
+            onClick={funcion}>{children}</button>
+    )
+}
+
+export default Boton
